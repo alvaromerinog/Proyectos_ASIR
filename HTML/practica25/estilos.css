@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body *{
+    font-family: Lato,sans-serif;
+}
+
+header{
+    color: white;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    border-top: 10px solid rgba(0,0,0,0.25);
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+h2{
+    color: rgba(0,0,0,0.5);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label,legend{
+    color: rgba(255,255,255,0.5);
+}
+
+[type="text"],textarea,select{
+    background-color: rgba(255,255,255,0.5);
+    font-size: 22pt;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: rgba(0,0,0,0.5);
+}
+
+[type="text"]:focus,textarea:focus,select:focus{
+    background-color: white;
+}
+
+.follow{
+    text-align: center;
+}
+
+[type="checkbox"]{
+    display: none
+}
+
+.follow label{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 30px;
+    height: 30px;
+    margin: 1em;
+}
+
+#facebook + label{
+    background-image: url("img/facebook-off.png");
+}
+
+#facebook:checked + label{
+    background-image: url("img/facebook-on.png");
+}
+
+#twitter + label{
+    background-image: url("img/twitter-off.png");
+}
+
+#twitter:checked + label{
+    background-image: url("img/twitter-on.png");
+}
+
+#pinterest + label{
+    background-image: url("img/pinterest-off.png");
+}
+
+#pinterest:checked + label{
+    background-image: url("img/pinterest-on.png");
+}
+
+#google + label{
+    background-image: url("img/google-off.png");
+}
+
+#google:checked + label{
+    background-image: url("img/google-on.png");
+}
+
+.enviar{
+    text-align: center;
+}
+
+button{
+    background-color: rgba(26, 53, 59, 0.5);
+    border: none;
+    outline: 0;
+    margin: 20px;
+    font-size: 22pt;
+    text-transform: uppercase;
+    width: 50%;
+    border-radius: 5px;
+    color: rgba(255,255,255,0.25);
+    font-weight: 300;
+}
+
+button:hover{
+    background-color: rgb(166, 137, 79)
+}
+
+button:focus{
+    background-color: rgba(166, 137, 79, 0.5);
+}

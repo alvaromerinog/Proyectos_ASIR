@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    font-size: 18pt;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:first-of-type th, tr:last-of-type th {
+    background-color: #3b3b3b;
+    text-align: center;
+    padding: 2px;
+}
+
+body, th {
+    background-color: #5f5250;
+}
+
+th {
+    text-align: left;
+    color: white;
+    font-weight: normal;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+td {
+    color: #5f5250;
+    background-color: white;
+}
+
+[type="text"], [type="password"] {
+    margin: 10px;
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 1em;
+    padding: 13px;
+    background-color: #999999;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+[type="text"] {
+    background-image: url("img/t.png");
+}
+
+[type="password"] {
+    background-image: url("img/candado.png");
+}
+
+input:focus {
+    background-color: #ff5454;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+[type="radio"] {
+    display: none;
+}
+
+[type="radio"] + label {
+    background-image: url("img/radio1.png");
+    background-repeat: no-repeat;
+    padding: 5px 0 5px 25px;
+    background-position: left;
+}
+
+[type="radio"]:checked + label {
+    color: #ff5454;
+    background-image: url("img/radio2.png");
+    background-repeat: no-repeat;
+}
+
+[type="checkbox"] {
+    display: none;
+}
+
+[type="checkbox"] + label {
+    background-image: url("img/off.png");
+    background-repeat: no-repeat;
+    padding-left: 60px;
+}
+
+[type="checkbox"]:checked + label {
+    color: #ff5454;
+    background-image: url("img/on.png");
+}
+
+button {
+    font-family: Montserrat, sans-serif;
+    color: white;
+    font-size: 1em;
+    background-color: #3b3b3b;
+    border: 7px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 4px;
+}
+
+button:hover {
+    background-color: #ff5454;
+}

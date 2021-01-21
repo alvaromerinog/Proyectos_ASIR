@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<departamentos>
+    <departamentoVentas idResponsable="t123" idTrabajadores="t90 t150">
+        <nombre>Departamento de Ventas</nombre>
+        <responsable id="t123">
+            <nombre>Javier</nombre>
+            <apellido1>Álvarez</apellido1>
+            <apellido2>Santos</apellido2>
+            <direccion>C/ Mayor 13</direccion>
+            <telefonos>
+                <telefono>979101718</telefono>                 
+            </telefonos>
+            <estadoCivil>Soltero</estadoCivil>
+            <historialLaboral>
+                <trabajo>
+                    <puesto>Jefe de producción</puesto>
+                    <fechaInicio>
+                        <dia>12</dia>
+                        <mes>3</mes>
+                        <anno>2008</anno>
+                    </fechaInicio>
+                    <fechaFin>
+                        <dia>3</dia>
+                        <mes>1</mes>
+                        <anno>2011</anno>
+                    </fechaFin>
+                </trabajo>
+                <trabajo>
+                        <puesto>Jefe de ventas</puesto>
+                        <fechaInicio>
+                            <dia>4</dia>
+                            <mes>1</mes>
+                            <anno>2011</anno>
+                        </fechaInicio>
+                        <fechaFin />
+                </trabajo>
+            </historialLaboral>
+        </responsable>
+        <trabajadores>
+            <trabajador id="t90" idJefe="t123">
+                <nombre>Ana</nombre>
+                <apellido1>Santos</apellido1>
+                <apellido2>Crespo</apellido2>
+                <direccion>C/ Jardines 12 1ºB</direccion>
+                <telefonos>
+                    <telefono>979777675</telefono>
+                </telefonos>
+                <estadoCivil>Casada</estadoCivil>
+                <historialLaboral>
+                    <trabajo>
+                        <puesto>Auxiliar Administrativo</puesto>
+                        <fechaInicio>
+                            <dia>8</dia>
+                            <mes>4</mes>
+                            <anno>2009</anno>
+                        </fechaInicio>
+                        <fechaFin>
+                            <dia>12</dia>
+                            <mes>3</mes>
+                            <anno>2010</anno>
+                        </fechaFin>
+                    </trabajo>
+                    <trabajo>
+                        <puesto>Comercial</puesto>
+                        <fechaInicio>
+                            <dia>13</dia>
+                            <mes>3</mes>
+                            <anno>2009</anno>
+                        </fechaInicio>
+                        <fechaFin>
+                            <dia>12</dia>
+                            <mes>3</mes>
+                            <anno>2010</anno>
+                        </fechaFin>  
+                    </trabajo>
+                    <trabajo>
+                        <puesto>Coordinadora de ventas</puesto>
+                        <fechaInicio>
+                            <dia>13</dia>
+                            <mes>3</mes>
+                            <anno>2010</anno>
+                        </fechaInicio>
+                        <fechaFin />
+                    </trabajo>
+                </historialLaboral>
+            </trabajador>
+            <trabajador id="t150" idJefe="t123">
+                <nombre>Luis</nombre>
+                <apellido1>Santana</apellido1>
+                <apellido2>González</apellido2>
+                <direccion>Avda Cisneros 38 4ºF</direccion>
+                <telefonos>
+                    <telefono>979107652</telefono>
+                </telefonos>
+                <estadoCivil>Casado</estadoCivil>
+                <idJefe>90</idJefe>
+                <historialLaboral>
+                    <trabajo>
+                        <puesto>Comercial</puesto>
+                        <fechaInicio>
+                            <dia>8</dia>
+                            <mes>9</mes>
+                            <anno>2010</anno>
+                        </fechaInicio>
+                        <fechaFin />
+                    </trabajo>
+                </historialLaboral>
+            </trabajador>
+        </trabajadores>
+    </departamentoVentas>
+    <departamentoProduccion idResponsable="t19" idTrabajadores="t201">
+        <nombre>Departamento de Producción</nombre>
+        <responsable id="t19">
+            <nombre>Lorena</nombre>
+            <apellido1>Villanueva</apellido1>
+            <apellido2>Herrero</apellido2>
+            <direccion>C/ Mayor 113 2ºF</direccion>
+            <telefonos>
+                <telefono>979807671</telefono>
+            </telefonos>
+            <estadoCivil>Soltera</estadoCivil>
+            <historialLaboral>
+                <trabajo>
+                    <puesto>Coordinadora de Producción</puesto>
+                    <fechaInicio>
+                        <dia>4</dia>
+                        <mes>5</mes>
+                        <anno>2006</anno>
+                    </fechaInicio>
+                    <fechaFin>
+                        <dia>24</dia>
+                        <mes>6</mes>
+                        <anno>2009</anno> 
+                    </fechaFin>
+                </trabajo>
+                <trabajo>
+                        <puesto>Jefa de Producción</puesto>
+                        <fechaInicio>
+                            <dia>25</dia>
+                            <mes>6</mes>
+                            <anno>2009</anno>
+                        </fechaInicio>
+                        <fechaFin />
+                    </trabajo>
+            </historialLaboral>
+        </responsable>
+        <trabajadores>
+            <trabajador id="t201" idJefe="t19">
+                <nombre>Víctor</nombre>
+                <apellido1>Suárez</apellido1>
+                <apellido2>Losande</apellido2>
+                <direccion>C/ Los Tintes 3 1ºC</direccion>
+                <telefonos>
+                    <telefono>979101015</telefono>
+                </telefonos>
+                <estadoCivil>Casado</estadoCivil>
+                <idJefe>19</idJefe>
+                <historialLaboral>
+                    <trabajo>
+                        <puesto>Coordinador de Producción</puesto>
+                        <fechaInicio>
+                            <dia>25</dia>
+                            <mes>6</mes>
+                            <anno>2009</anno>
+                        </fechaInicio>
+                        <fechaFin />
+                    </trabajo>
+                </historialLaboral> 
+            </trabajador>
+        </trabajadores>
+    </departamentoProduccion>
+</departamentos>

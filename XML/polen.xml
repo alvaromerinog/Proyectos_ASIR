@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<calendario_polen>
+    <plantas>
+        <planta id="alnus">
+            <nombre>ALNUS</nombre>
+        </planta>
+    </plantas>
+    <zonas>
+        <zona>
+            <nombre>Norte</nombre>
+            <plantas>
+                <planta id_ref="alnus">
+                    <fuerzas>
+                        <fuerza tipo="Débil" meses="Enero Marzo"/>
+                        <fuerza tipo="Fuerte" meses="Febrero"/>
+                    </fuerzas>
+                </planta>
+                <planta>
+                    <nombre></nombre>
+                </planta>
+                <planta>
+                    <nombre></nombre>
+                </planta>
+                <planta>
+                    <nombre></nombre>
+                </planta>
+            </plantas>
+        </zona>
+        <zona>
+            <nombre>Centro</nombre>
+        </zona>
+        <zona>
+            <nombre>Mediterraneo</nombre>
+        </zona>
+        <zona>
+            <nombre>Baleares</nombre>
+        </zona>
+        <zona>
+            <nombre>Canarias</nombre>
+        </zona>
+    </zonas>
+</calendario_polen>

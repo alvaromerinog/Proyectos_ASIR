@@ -1,0 +1,56 @@
+{
+    "paises": [
+        {
+            "nombre": "España",
+            "poblacion": 46000000,
+            "capital": 1,
+            "superficie": {
+                "valor": 504645,
+                "unidad": "km2"
+            },
+            "ciudadesPrincipales": [
+                {
+                    "id": 1,
+                    "nombre": "Madrid",
+                    "poblacion": "6543031"
+                },
+                {
+                    "id": 2,
+                    "nombre": "Barcelona",
+                    "poblacion": "5029181"
+                }
+            ],
+            "lenguasOficiales": [
+                "Catellano",
+                "Catalán",
+                "Euskera",
+                "Gallego"
+            ]
+        },
+        {
+            "nombre": "Francia",
+            "poblacion": 66300000,
+            "superficie": {
+                "valor": 675417,
+                "unidad": "km2"
+            },
+            "ciudadesPrincipales": [
+                {
+                    "nombre": "París",
+                    "poblacion": 12292895
+                },
+                {
+                    "nombre": "Lyon",
+                    "poblacion": 2288759
+                },
+                {
+                    "nombre": "Marsella",
+                    "poblacion": 1720941
+                }
+            ],
+            "lenguasOficiales": [
+                "Francés"
+            ]
+        }
+    ]
+}

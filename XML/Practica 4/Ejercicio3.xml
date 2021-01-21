@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<datos>
+    <males>
+        <mal id="m1">
+            <nombre>Conflicto Armado</nombre>
+        </mal>
+        <mal id="m2">
+            <nombre>Sequía persistente</nombre>
+        </mal>
+        <mal id="m3">
+            <nombre>Crisis alimentaria grave</nombre>
+        </mal>
+        <mal id="m4">
+            <nombre>Otros desastres climáticos</nombre>
+        </mal>
+    </males>
+    <países>
+        <país males="m2">
+            <nombre>Guatemala</nombre>
+        </país>
+        <país males="m2">
+            <nombre>El Salvador</nombre>
+        </país>
+        <país males="m2">
+            <nombre>Honduras</nombre>
+        </país>
+        <país males="m4">
+            <nombre>Haití</nombre>
+        </país>
+        <país males="m1 m3">
+            <nombre>Nigeria</nombre>
+        </país>
+        <país males="m1 m3">
+            <nombre>Niger</nombre>
+        </país>
+        <país males="m1 m3">
+            <nombre>Chad</nombre>
+        </país>
+        <país males="m1">
+            <nombre>Rep. Centroafricana</nombre>
+        </país>
+        <país males="m1">
+            <nombre>Rep. Dem. de Congo</nombre>
+        </país>
+        <país males="m1 m3">
+            <nombre>Sudán del Sur</nombre>
+        </país>
+        <país males="m2 m3">
+            <nombre>Etiopía</nombre>
+        </país>
+    </países>
+</datos>

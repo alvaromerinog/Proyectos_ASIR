@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/*
+General
+ */
+
+body {
+    margin: 0;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body * {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*
+Cabecera
+ */
+
+header {
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-top: 75px;
+    width: 100%;
+    height: 92.5vh;
+}
+
+#inicio {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: 0;
+}
+
+#inicio h1 {
+    text-transform: uppercase;
+    font-size: 5em;
+
+}
+
+#inicio h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+}
+
+a div {
+    display: inline-block;
+    width: 71px;
+    height: 71px;
+    background-image: url("../img/abajo-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    border-radius: 5px;
+}
+
+a div:hover {
+    background-image: url("../img/abajo-2.png");
+}
+
+/*
+Barra de navegacion
+ */
+
+nav {
+    position: sticky;
+    top: 0;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    height: 50px;
+    text-align: center;
+    background-color: #474b50;
+}
+
+nav p {
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 15px;
+    height: 50px;
+    margin: 0;
+}
+
+nav p:hover {
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*
+Cuerpo principal
+ */
+
+main {
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+#vuelos, #formulario {
+    padding: 10px 40px 40px 40px;
+}
+
+article {
+    width: 100%;
+    margin: 0;
+}
+
+main h1 {
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+    margin: 0.5em 0;
+    text-transform: uppercase;
+}
+
+main em, figcaption em {
+    font-size: 1.5em;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+/*
+Introducción
+ */
+
+#intro {
+    text-align: center;
+}
+
+#vuelos img {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/*
+Países
+ */
+
+#paises {
+    text-align: center;
+}
+
+@media (max-width: 899px) {
+    #paises article {
+        display: block;
+        width: 100%;
+        transition: 0.5s;
+        margin: 0;
+    }
+}
+
+@media (min-width: 900px) {
+    #paises article {
+        display: inline-block;
+        width: 44.90%;
+        transition: 0.5s;
+        margin-bottom: 10px;
+    }
+
+    #paises article:nth-of-type(odd) {
+        margin-right: 40px;
+    }
+
+    #paises article:nth-of-type(even) {
+        margin-left: 40px;
+    }
+}
+
+#paises article:hover {
+    outline: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/*
+Formulario
+ */
+
+#formulario {
+    margin: 0 0 300px 0;
+    background-color: #cad1ce;
+}
+
+#formulario h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+label, legend {
+    color: #484b50;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+fieldset {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #888d8b;
+    margin: 0;
+}
+
+legend {
+    margin-bottom: 1em;
+}
+
+
+[type='text'] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3em;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    background-color: transparent;
+    border: 1px solid #888d8b;
+    margin-top: 5px;
+}
+
+[type='checkbox']:checked + label {
+    background-color: #f8e0b9;
+}
+
+button {
+    width: 45%;
+    color: #484b50;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: transparent;
+    border: 1px solid #484b50;
+    margin-top: 2em;
+    padding: 1em;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #4096a5;
+    color: white;
+}

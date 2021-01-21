@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Navidad</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header>
+    <section id="inicio">
+        <h1>Viajes Bosco</h1>
+        <h2>Las mejores aventuras por todo el mundo gestionadas por tu propio centro educativo</h2>
+        <a href="#vuelos">
+            <div>&nbsp;</div>
+        </a>
+    </section>
+</header>
+<nav>
+    <p><a href="#intro">Introducción</a></p>
+    <p><a href="#india">India</a></p>
+    <p><a href="#mexico">México</a></p>
+    <p><a href="#nzelanda">Nueva Zelanda</a></p>
+    <p><a href="#peru">Perú</a></p>
+    <p><a href="#islandia">Islandia</a></p>
+    <p><a href="#japon">Japón</a></p>
+</nav>
+<main>
+    <section id="vuelos">
+        <article id="intro">
+            <h1>No sueñes, vuela de verdad</h1>
+            <p><em>Tenemos los mejores aviones hacia destinos de todo el planeta. Solo dinos dónde quieres ir</em></p>
+            <img src="img/viaje.jpg" alt="Señor sentado en aeropuerto">
+        </article>
+        <section id="paises">
+            <article id="india">
+                <h1>India</h1>
+                <figure>
+                    <img src="img/india.jpg" alt="India">
+                    <figcaption><em>Haz clic para elegir este destino</em></figcaption>
+                </figure>
+            </article>
+            <article id="mexico">
+                <h1>México</h1>
+                <figure>
+                    <img src="img/mexico.jpg" alt="Mexico">
+                    <figcaption><em>Haz clic para elegir este destino</em></figcaption>
+                </figure>
+            </article>
+            <article id="nzelanda">
+                <h1>Nueva Zelanda</h1>
+                <figure>
+                    <img src="img/nuevazelanda.jpg" alt="Nueva Zelanda">
+                    <figcaption><em>Haz clic para elegir este destino</em></figcaption>
+                </figure>
+            </article>
+            <article id="peru">
+                <h1>Perú</h1>
+                <figure>
+                    <img src="img/peru.jpg" alt="Peru">
+                    <figcaption><em>Haz clic para elegir este destino</em></figcaption>
+                </figure>
+            </article>
+            <article id="islandia">
+                <h1>Islandia</h1>
+                <figure>
+                    <img src="img/islandia.jpg" alt="Islandia">
+                    <figcaption><em>Haz clic para elegir este destino</em></figcaption>
+                </figure>
+            </article>
+            <article id="japon">
+                <h1>Japón</h1>
+                <figure>
+                    <img src="img/japon.jpg" alt="Japon">
+                    <figcaption><em>Haz clic para elegir este destino</em></figcaption>
+                </figure>
+            </article>
+        </section>
+
+    </section>
+    <section id="formulario">
+        <form action="#" method="POST">
+            <h1>Envío de datos</h1>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos"><br>
+            <label for="mail">Email</label><br>
+            <input type="text" id="mail" name="mail"><br>
+            <fieldset>
+                <legend>Vieajes deseados</legend>
+                <input type="checkbox" id="ind" name="pais" value="India">
+                <label for="ind">India</label>
+                <input type="checkbox" id="mx" name="pais" value="Mexico">
+                <label for="mx">México</label>
+                <input type="checkbox" id="nz" name="pais" value="Nueva Zelanda">
+                <label for="nz">Nueva Zelanda</label>
+                <input type="checkbox" id="per" name="pais" value="Peru">
+                <label for="per">Perú</label>
+                <input type="checkbox" id="isl" name="pais" value="Islandia">
+                <label for="isl">Islandia</label>
+                <input type="checkbox" id="jp" name="pais" value="Japon">
+                <label for="jp">Japón</label>
+            </fieldset>
+            <button>Enviar</button>
+        </form>
+    </section>
+</main>
+<script src="js/app.js"></script>
+</body>
+</html>

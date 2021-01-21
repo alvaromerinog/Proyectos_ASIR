@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300&display=swap');
+
+body {
+    background-color: hsl(26, 4%, 76%);
+    margin: 0;
+    text-align: center;
+}
+
+/*
+background-color: hsl(171,11%,70%); gris claro
+background-color: #1ab188; verde claro
+background-color: #747474;
+background-color: rgb(36,49,60);
+white
+hsl(26,4,76)
+background-color: hsl(171,11%,70%);
+*/
+
+body * {
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+main {
+    background-color: rgb(36, 49, 60);
+    width: 800px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    border-spacing: 1em;
+}
+
+th * {
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+tbody td {
+    border: 2px solid hsl(171, 11%, 70%);
+    color: hsl(171, 11%, 70%);
+    padding: 15px;
+    text-align: justify;
+}
+
+.user {
+    background-image: url("img/user.png");
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+
+div {
+    width: 94%;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    font-size: 1.25em;
+}
+
+.user input{
+    width: 70%;
+}
+
+.correo{
+    background-image: url("img/mail-icon.png");
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+
+.correo input{
+    width: 90%;
+}
+
+.contras{
+    background-image: url("img/candado.png");
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+.contras input{
+    width: 84%;
+}
+
+strong {
+    color: #1ab188;
+}
+
+[type="text"], [type="password"], [type="number"] {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid hsl(171, 11%, 70%);
+    background-color: transparent;
+    color: white;
+    font-size: 1.5em;
+}
+
+[type="text"]:focus, [type="password"]:focus, [type="number"]:focus {
+    background-color: #1ab188;
+}
+
+[type="radio"], [type="checkbox"] {
+    display: none;
+}
+
+.sexo {
+    text-align: center;
+    border: none;
+}
+
+[type="radio"] + label {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 45%;
+    text-align: center;
+    background-color: #747474;
+    color: white;
+    padding: 5px;
+}
+
+[type="radio"]:checked + label {
+    background-color: #1ab188;
+}
+
+[type="checkbox"] + label {
+    background-image: url("img/no.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 70px auto;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 1.25em;
+    padding: 5px 80px;
+}
+
+[type="checkbox"]:checked + label {
+    background-image: url("img/si.png");
+}
+
+#edad{
+    width: 250px;
+}
+button {
+    width: 100%;
+    background-color: #747474;
+    border: none;
+    outline: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0.75em;
+}
+
+button:hover {
+    background-color: #1ab188;
+}

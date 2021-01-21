@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sitiosweb>
+    <autores>
+        <autor id="a1">
+            <nombre>Sarah</nombre>
+            <apellido>Casado</apellido>
+            <email>sarcash@nop.com</email>
+        </autor>
+        <autor id="a2">
+            <nombre>Alberto</nombre>
+            <apellido>Jimenez</apellido>
+            <email>jimenez@ubg.com</email>
+        </autor>
+    </autores>
+    <posts>
+        <post id="p1" idautor="a1">
+            <titulo>Cómo crear un buen XML</titulo>
+            <fecha>
+                <dia>21</dia>
+                <mes>05</mes>
+                <año>2017</año>
+            </fecha>
+        </post>
+        <post id="p2" idautor="a1">
+            <titulo>Dar formato a XML</titulo>
+            <fecha>
+                <dia>12</dia>
+                <mes>06</mes>
+                <año>2017</año>
+            </fecha>
+        </post>
+        <post id="p3" idautor="a2">
+            <titulo>El éxito de JSON</titulo>
+            <fecha>
+                <dia>13</dia>
+                <mes>06</mes>
+                <año>2017</año>
+            </fecha>
+        </post>
+    </posts>
+    <sitioweb>
+        <url>ultrablogg.com</url>
+        <entradas>
+            <entrada idpost="p1">
+                <visitas>
+                    <unicas>4500</unicas>
+                    <totales>26870</totales>
+                </visitas>
+            </entrada>
+            <entrada idpost="p2">
+                <visitas>
+                    <unicas>9000</unicas>
+                    <totales>16000</totales>
+                </visitas>
+            </entrada>
+            <entrada idpost="p3">
+                <visitas>
+                    <unicas>11800</unicas>
+                    <totales>35000</totales>
+                </visitas>
+            </entrada>
+        </entradas>
+    </sitioweb>
+    <sitioweb>
+        <url>tekniblog.es</url>
+        <entradas>
+            <entrada idpost="p1">
+                <visitas>
+                    <unicas>4500</unicas>
+                    <totales>26870</totales>
+                </visitas>
+            </entrada>
+            <entrada>
+                <visitas>
+                    <unicas>9000</unicas>
+                    <totales>16000</totales>
+                </visitas>
+            </entrada>
+            <entrada idpost="p3">
+                <visitas>
+                    <unicas>11800</unicas>
+                    <totales>35000</totales>
+                </visitas>
+            </entrada>
+        </entradas>
+    </sitioweb>
+    <sitioweb>
+        <url>blogdelcarrion.es</url>
+        <entradas>
+            <entrada idpost="p2">
+                <visitas>
+                    <unicas>4500</unicas>
+                    <totales>26870</totales>
+                </visitas>
+            </entrada>
+            <entrada>
+                <visitas>
+                    <unicas>9000</unicas>
+                    <totales>16000</totales>
+                </visitas>
+            </entrada>
+            <entrada idpost="p3">
+                <visitas>
+                    <unicas>11800</unicas>
+                    <totales>35000</totales>
+                </visitas>
+            </entrada>
+        </entradas>
+    </sitioweb>
+</sitiosweb>

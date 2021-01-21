@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<libroTexto id="1" isbn="846754824X" lenguaje="castellano">
+    <titulo>Matemáticas, Pitágoras. 2 ESO. Conecta 2.0</titulo>
+    <editorial>SM</editorial>
+    <autores>
+        <autor>
+            <nombre>Fernando</nombre>
+            <apellido1>Alcaide</apellido1>
+            <apellido2>Guindo</apellido2>
+        </autor>
+    </autores>
+    <reseña>
+        <descripcion>
+            El proyecto
+            <negrita>Pitágoras</negrita>
+            tiene como objetivo presentar las matemá-
+            ticas con el rigor conceptual adecuado al curso, cubriendo con 
+            holgura los
+            <subrayado>
+                <cursiva>contenidos curriculares de todas</cursiva>
+            </subrayado>
+            las comunidades autó-
+            nomas, desarrollando las competencias básicas previstas por la LOE
+            y trabajando las
+            <cursiva>TIC</cursiva>
+            desde el mismo libro de texto y su extensión
+            en LibrosVivos.
+        </descripcion>
+    </reseña>
+</libroTexto>

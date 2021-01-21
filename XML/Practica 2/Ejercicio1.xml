@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paises>
+    <pais>
+        <nombre>España</nombre>
+        <poblacion>46000000</poblacion>
+        <superficie>504,645 km^2</superficie>
+        <ciudades tipo="principales">
+                <ciudad id="c1" capital="true">
+                    <nombre>Madrid</nombre>
+                    <poblacion>5029181</poblacion>
+                </ciudad>
+                <ciudad>
+                    <nombre>Barcelona</nombre>
+                    <poblacion>5029181</poblacion>
+                </ciudad>
+        </ciudades>
+        <lenguasoficiales>
+            <lengua>
+                <nombre>Castellano</nombre>
+            </lengua>
+            <lengua>
+                <nombre>Catalán</nombre>
+            </lengua>
+            <lengua>
+                <nombre>Euskera</nombre>
+            </lengua>
+            <lengua>
+                <nombre>Gallego</nombre>
+            </lengua>
+        </lenguasoficiales>
+    </pais>
+    <pais>
+            <nombre>Francia</nombre>
+            <poblacion>66300000</poblacion>
+            <superficie>675,417 km^2</superficie>
+            <ciudades tipo="principales">
+                    <ciudad id="c2" capital="true">
+                        <nombre>París</nombre>
+                        <poblacion>12292895</poblacion>
+                    </ciudad>
+                    <ciudad>
+                        <nombre>Lyon</nombre>
+                        <poblacion>2288759</poblacion>
+                    </ciudad>
+                    <ciudad>
+                        <nombre>Marsella</nombre>
+                        <poblacion>1720941</poblacion>
+                    </ciudad>
+            </ciudades>
+            <lenguasoficiales>
+                <lengua>
+                    <nombre>Francés</nombre>
+                </lengua>
+            </lenguasoficiales>
+        </pais>
+</paises>

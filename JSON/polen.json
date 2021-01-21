@@ -1,0 +1,37 @@
+{
+  "calendarioPolen": {
+    "plantas": [
+      {
+        "id": "alnus",
+        "nombre": "Alnus"
+      },
+      {
+      }
+    ],
+    "zonas": [
+      {
+        "nombre": "Norte",
+        "plantas": [
+          {
+            "id_ref": "alnus",
+            "fuerzas": [
+              {
+                "tipo": "Débil",
+                "meses": [
+                  "Enero",
+                  "Marzo"
+                ]
+              },
+              {
+                "tipo": "Fuerte",
+                "meses": [
+                  "Febrero"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sitiosweb>
+    <sitioweb>
+        <url>ultrablogg.com</url>
+        <posts>
+            <post>
+                <titulo>Cómo crear un buen XML</titulo>
+                <fecha>
+                    <dia>21</dia>
+                    <mes>05</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas>4500</unicas>
+                    <totales>26870</totales>
+                </visitas>
+                <autor>
+                    <nombre>Sarah</nombre>
+                    <apellido>Casado</apellido>
+                    <email>sarcash@nop.com</email>
+                </autor>
+            </post>
+            <post>
+                <titulo>Dar formato a XML</titulo>
+                <fecha>
+                    <dia>12</dia>
+                    <mes>06</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas>9000</unicas>
+                    <totales>16000</totales>
+                </visitas>
+                <autor>
+                    <nombre>Sarah</nombre>
+                    <apellido>Casado</apellido>
+                    <email>sarcash@nop.com</email>
+                </autor>
+            </post>
+            <post>
+                <titulo>El éxito de JSON</titulo>
+                <fecha>
+                    <dia>13</dia>
+                    <mes>06</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas>11800</unicas>
+                    <totales>35000</totales>
+                </visitas>
+                <autor>
+                    <nombre>Alberto</nombre>
+                    <apellido>Jimenez</apellido>
+                    <email>jimenez@ubg.com</email>
+                </autor>
+            </post>
+        </posts>
+    </sitioweb>
+    <sitioweb>
+        <url>tekniblog.es</url>
+        <posts>
+            <post>
+                <titulo>Cómo crear un buen XML</titulo>
+                <fecha>
+                    <dia>21</dia>
+                    <mes>05</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas />
+                    <totales />
+                </visitas>
+                <autor>
+                    <nombre>Sarah</nombre>
+                    <apellido>Casado</apellido>
+                    <email>sarah@nop.com</email>
+                </autor>
+            </post>
+            <post>
+                <titulo>El éxito de JSON</titulo>
+                <fecha>
+                    <dia>13</dia>
+                    <mes>06</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas />
+                    <totales />
+                </visitas>
+                <autor>
+                    <nombre>Alberto</nombre>
+                    <apellido>Jimenez</apellido>
+                    <email>jimenez@ubg.com</email>
+                </autor>
+            </post>
+        </posts>
+    </sitioweb>
+    <sitioweb>
+        <url>blogdelcarrion.es</url>
+        <posts>
+            <post>
+                <titulo>Dar formato a XML</titulo>
+                <fecha>
+                    <dia>12</dia>
+                    <mes>06</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas>1200</unicas>
+                    <totales>9000</totales>
+                </visitas>
+                <autor>
+                    <nombre>Sarah</nombre>
+                    <apellido>Casado</apellido>
+                    <email>sarah@nop.com</email>
+                </autor>
+            </post>
+            <post>
+                <titulo>El éxito de JSON</titulo>
+                <fecha>
+                    <dia>13</dia>
+                    <mes>06</mes>
+                    <año>2017</año>
+                </fecha>
+                <visitas>
+                    <unicas>2870</unicas>
+                    <totales>17000</totales>
+                </visitas>
+                <autor>
+                    <nombre>Alberto</nombre>
+                    <apellido>Jiménez</apellido>
+                    <email>jimenez@ubg.com</email>
+                </autor>
+            </post>
+        </posts>
+    </sitioweb>
+</sitiosweb>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 24</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<main>
+    <form action="#" method="get">
+        <table>
+            <thead>
+            <tr>
+                <th colspan="2">
+                    <h1>Alta de usuario</h1>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="user">
+                    <div>
+                        <label for="nombre">Nombre<strong>*</strong></label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                </td>
+                <td class="user">
+                    <div>
+                        <label for="apellido">Apellido<strong>*</strong></label>
+                        <input type="text" name="apellido" id="apellido" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="correo">
+                    <div>
+                        <label for="email">E-mail<strong>*</strong></label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="contras">
+                    <div>
+                        <label for="contra">Contraseña<strong>*</strong></label>
+                        <input type="password" name="contra" id="contra" required>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label for="mujer">Mujer</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="familiar" id="familiar" value="familiar">
+                    <label for="familiar">Familiar</label><br>
+                    <input type="checkbox" name="trabajador" id="trabajador" value="trabajador">
+                    <label for="trabajador">Trabajador</label><br>
+                    <input type="checkbox" name="socio" id="socio" value="socio">
+                    <label for="socio">Socio</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="edad">Edad<strong>*</strong></label>
+                    <input type="number" name="edad" id="edad" min="18" max="65" required>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="2">
+                    <button>Alta</button>
+                </th>
+            </tr>
+            </tfoot>
+        </table>
+    </form>
+</main>
+</body>
+</html>

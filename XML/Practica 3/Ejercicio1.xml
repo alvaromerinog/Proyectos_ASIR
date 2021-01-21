@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<elecciones>
+    <informacion>
+        <censoT>
+            <nombre>Censo total</nombre>
+            <cantidad>34802222</cantidad>
+        </censoT>
+        <votosB>
+            <nombre>Votos blancos</nombre>
+            <cantidad>199511</cantidad>
+        </votosB>
+        <escaños>
+            <nombre>Escaños</nombre>
+            <cantidad>350</cantidad>
+        </escaños>
+        <votosT>
+            <nombre>Total votos</nombre>
+            <cantidad>25886130</cantidad>
+        </votosT>
+        <votosN>
+            <nombre>Votos nulos</nombre>
+            <cantidad>275410</cantidad>
+        </votosN>
+        <abst>
+            <nombre>Abstención</nombre>
+            <cantidad>24,24%</cantidad>
+        </abst>
+    </informacion>
+    <partidos>
+        <partido>
+            <nombre>PSOE</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>7480755</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>28,9%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>123</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>PP</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>4356023</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>16,83%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>66</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>Cs</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>4136600</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>15,98%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>57</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>U. Podemos</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>3118191</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>12,05%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>35</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>Vox</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>2677173</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>10,34%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>24</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>ERC</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>1015355</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>3,92%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>15</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>En Comú P.</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>614738</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>2,37%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>7</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>JxCAT</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>497638</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>1,92%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>7</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>EAJ-PNV</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>394627</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>1,52%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>6</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>PACMA</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>326045</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>1,26%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>0</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>EH Bildu</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>258840</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>1%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>4</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>Compromis</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>172751</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>0,67%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>1</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>CCa-PNC</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>137196</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>0,53%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>2</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>Front Republica</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>113008</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>0,44%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>0</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>NA+</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>107124</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>0,41%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>2</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>BNG</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>93810</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>0,36%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>0</cantidad>
+            </escaños>
+        </partido>
+        <partido>
+            <nombre>PRC</nombre>
+            <votos>
+                <nombre>Votos</nombre>
+                <cantidad>52197</cantidad>
+            </votos>
+            <porvotos>
+                <nombre>% votos</nombre>
+                <cantidad>0,2%</cantidad>
+            </porvotos>
+            <escaños>
+                <nombre>Escaños</nombre>
+                <cantidad>1</cantidad>
+            </escaños>
+        </partido>
+    </partidos>
+</elecciones>

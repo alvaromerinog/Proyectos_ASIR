@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<departamentos>
+    <departamento>
+        <nombre>Departamento Historia</nombre>
+        <documentos>
+            <documento id="123">
+                <autor>
+                    <nombre>Luisa</nombre>
+                    <apellido1>Casas</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <fechaCreacion>
+                    <dia>2</dia>
+                    <mes>11</mes>
+                    <año>2010</año>
+                </fechaCreacion>
+                <titulo>Imperio Romano I</titulo>
+            </documento>
+            <documento id="124">
+                <autor>
+                    <nombre>Luisa</nombre>
+                    <apellido1>Casas</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <fechaCreacion>
+                    <dia>2</dia>
+                    <mes>11</mes>
+                    <año>2010</año>
+                </fechaCreacion>
+                <titulo>Imperio Romano II</titulo>
+            </documento>
+            <documento id="133">
+                <autor>
+                    <nombre>Cesareo</nombre>
+                    <apellido1>Pérez</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <fechaCreacion>
+                    <dia>9</dia>
+                    <mes>11</mes>
+                    <año>2010</año>
+                </fechaCreacion>
+                <titulo>Postguerra Española</titulo>
+            </documento>
+        </documentos>
+    </departamento>
+    <departamento>
+        <nombre>Departamento de Estadística</nombre>
+        <documentos>
+            <doc id="98">
+                <autor>
+                    <nombre>María</nombre>
+                    <apellido1>Rosales</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <observaciones>Documento desfasado</observaciones>
+                <titulo>Pirámide Poblacional China</titulo>
+            </doc>
+            <doc id="198">
+                <autor>
+                    <nombre>Carlos</nombre>
+                    <apellido1>Sendino</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <observaciones></observaciones>
+                <titulo>Curvas de decisión</titulo>
+            </doc>
+            <doc id="234">
+                <autor>
+                    <nombre>Cesareo</nombre>
+                    <apellido1>Pérez</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <observaciones>Excelente documento</observaciones>
+                <titulo>Estudio de audiencias</titulo>
+            </doc>
+            <doc id="235">
+                <autor>
+                    <nombre>Carlos</nombre>
+                    <apellido1>Sandino</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <observaciones></observaciones>
+                <titulo>Nuevas variables estadísticas</titulo>
+            </doc>
+            <doc id="276">
+                <autor>
+                    <nombre>Carlos</nombre>
+                    <apellido1>Sandino</apellido1>
+                    <apellido2></apellido2>
+                </autor>
+                <observaciones>De lectura dirigida a profesionales</observaciones>
+                <titulo>Algebra &amp; Estadística</titulo>
+            </doc>
+        </documentos>
+    </departamento>
+</departamentos>

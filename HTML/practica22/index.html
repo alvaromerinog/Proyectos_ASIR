@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 22</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<main>
+    <form action="http://jorgesanchez.net/servicios/proceso22.php" method="post">
+        <table>
+            <tr>
+                <th colspan="2">
+                    <h1>Formulario de Matriculación</h1>
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <label for="nombre">Nombre</label>
+                </th>
+                <td>
+                    <input type="text" name="nombre" id="nombre">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="apellidos">Apellidos</label>
+                </th>
+                <td>
+                    <input type="text" name="apellidos" id="apellidos">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="contra">Contraseña</label>
+                </th>
+                <td>
+                    <input type="password" name="contra" id="contra">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Etapa educativa
+                </th>
+                <td>
+                    <fieldset>
+                        <legend>Seleccione una sola opción</legend>
+                        <input type="radio" name="etapa" id="prim" value="12">
+                        <label for="prim">Primaria (12 €)</label><br>
+                        <input type="radio" name="etapa" id="secu" value="30">
+                        <label for="secu">Secundaria (30 €)</label><br>
+                        <input type="radio" name="etapa" id="progmed" value="30">
+                        <label for="progmed">Formación Profesional de grado medio (30 €)</label><br>
+                        <input type="radio" name="etapa" id="bach" value="50">
+                        <label for="bach">Bachillerato (50 €)</label><br>
+                        <input type="radio" name="etapa" id="progsup" value="40">
+                        <label for="progsup">Formación Profesional de grado superior (40 €)</label><br>
+                        <input type="radio" name="etapa" id="unigmed" value="700">
+                        <label for="unigmed">Estudios Universitarios de grado medio (700 €)</label><br>
+                        <input type="radio" name="etapa" id="unigsup" value="900">
+                        <label for="unigsup">Estudios Universitarios de grado superior (900 €)</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Otras opciones
+                </th>
+                <td>
+                    <fieldset>
+                        <legend>Seleccione las opciones pertinentes</legend>
+                        <input type="checkbox" name="numerosa" id="numerosa" value="20">
+                        <label for="numerosa">Familia Numerosa (20%)</label><br>
+                        <input type="checkbox" name="discapacidad" id="discapacidad" value="50">
+                        <label for="discapacidad">Discapacidad (50%)</label><br>
+                        <input type="checkbox" name="mayor" id="mayor" value="10">
+                        <label for="mayor">Mayor de 30 años (10%)</label><br>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <button>Calcular</button>
+                </th>
+            </tr>
+        </table>
+    </form>
+</main>
+</body>
+</html>

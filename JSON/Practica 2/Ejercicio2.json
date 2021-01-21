@@ -1,0 +1,52 @@
+{
+    "sistemasconduccion": [
+        {
+            "nombre": "L0",
+            "tipo": "Sin automatizar",
+            "descripcion": "No hay ningún apoyo, el conductor conduce sin asistencia alguna",
+            "epoca": "Desde 1990"
+        },
+        {
+            "nombre": "L1",
+            "tipo": "Funciones específicas",
+            "descripcion": "Se automatizan una o más funciones, pero sin combinarse entre sí",
+            "ejemplos": [
+                "ABS",
+                "Control de crucero",
+                "Control electrónico de estabilidad",
+                "Asistencia de aparcamiento"
+            ],
+            "epoca": "Desde 1990"
+        },
+        {
+            "nombre": "L2",
+            "tipo": "Funciones combinadas",
+            "descripcion": "Varias funciones trabajan al unísono para conseguir automatismos avanzados",
+            "ejemplos": [
+                "Tesla Autopilot",
+                "GM Super Cruise"
+            ],
+            "epoca": "Desde 2010"
+        },
+        {
+            "nombre": "L3",
+            "tipo": "Autoconducción Limitada",
+            "descripcion": "El conductor cede el control del coche en determinadas circunstancias. Debe estar atento ara poder tomar el control en caso necesario",
+            "ejemplos": [
+                {
+                    "nombre": "Google Car (prototipo asistido)"
+                }
+            ],
+            "epoca": "Desde 2010"
+        },
+        {
+            "nombre": "L4",
+            "tipo": "Autoconducción total",
+            "descripcion": "El coche se conduce solo de forma autónoma durante todo un trayecto",
+            "ejemplos": [
+                "Google Car"
+            ],
+            "epoca": "?"
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "jugadores": [
+        {
+            "id": 1,
+            "número": 11,
+            "nombre": "John",
+            "apellido": "Isner",
+            "nacionalidad": "imágen1"
+        },
+        {
+            "id": 2,
+            "número": 25,
+            "nombre": "Milos",
+            "apellido": "Raonic",
+            "nacionalidad": "imágen2"
+        },
+        {
+            "id": 3,
+            "número": 1,
+            "nombre": "Rafael",
+            "apellido": "Nadal",
+            "nacionalidad": "imágen3"
+        },
+        {
+            "id": 4,
+            "nombre": "Nikoloz",
+            "apellido": "Basilashvili",
+            "nacionalidad": "imágen4"
+        },
+        {
+            "id": 5,
+            "número": 9,
+            "nombre": "Dominic",
+            "apellido": "Thiem",
+            "nacionalidad": "imágen5"
+        },
+        {
+            "id": 6,
+            "número": 5,
+            "nombre": "Kevin",
+            "apellido": "Anderson",
+            "nacionalidad": "imágen6"
+        },
+        {
+            "id": 7,
+            "número": 7,
+            "nombre": "Marin",
+            "apellido": "Cilic",
+            "nacionalidad": "imágen7"
+        },
+        {
+            "id": 8,
+            "nombre": "Álex",
+            "apellido": "de Miñaur",
+            "nacionalidad": "imágen8"
+        },
+        {
+            "id": 9,
+            "número": 6,
+            "nombre": "Novak",
+            "apellido": "Dokovic",
+            "nacionalidad": "imágen9"
+        },
+        {
+            "id": 10,
+            "número": 26,
+            "nombre": "Richard",
+            "apellido": "Gasquet",
+            "nacionalidad": "imágen10"
+        },
+        {
+            "id": 11,
+            "nombre": "Jan-Lennard",
+            "apellido": "Struff",
+            "nacionalidad": "imágen11"
+        },
+        {
+            "id": 12,
+            "número": 10,
+            "nombre": "David",
+            "apellido": "Goffin",
+            "nacionalidad": "imágen12"
+        }
+    ],
+    "estadios": [
+        {
+            "id": 1,
+            "nombre": "Louis Armstrong Stadium"
+        },
+        {
+            "id": 2,
+            "nombre": "Arthur Ashe Stadium"
+        },
+        {
+            "id": 3,
+            "nombre": "Pista 17"
+        }
+    ],
+    "octavos": [
+        {
+            "estado": "finalizado",
+            "idestadio": 1,
+            "jugadores": [
+                {
+                    "idjugador": 1,
+                    "sets": [
+                        3,
+                        6,
+                        6,
+                        3,
+                        6
+                    ]
+                },
+                {
+                    "idjugador": 2,
+                    "sets": [
+                        6,
+                        3,
+                        4,
+                        6,
+                        2
+                    ]
+                }
+            ]
+        },
+        {
+            "estado": "finalizado",
+            "idestadio": 2,
+            "jugadores": [
+                {
+                    "idjugador": 3,
+                    "sets": [
+                        6,
+                        6,
+                        [
+                            6,
+                            6
+                        ],
+                        6
+                    ]
+                },
+                {
+                    "idjugador": 4,
+                    "sets": [
+                        3,
+                        3,
+                        [
+                            7,
+                            8
+                        ],
+                        4
+                    ]
+                }
+            ]
+        },
+        {
+            "estado": "finalizado",
+            "idestadio": 1,
+            "jugadores": [
+                {
+                    "idjugador": 5,
+                    "sets": [
+                        7,
+                        6,
+                        [
+                            7,
+                            7
+                        ]
+                    ]
+                },
+                {
+                    "idjugador": 6,
+                    "sets": [
+                        {
+                            "set": 5
+                        },
+                        {
+                            "set": 2
+                        },
+                        {
+                            "set": [
+                                6,
+                                2
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "ronda32": [
+        {
+            "estado": "finalizado",
+            "idestadio": 1,
+            "jugadores": [
+                {
+                    "idjugador": 7,
+                    "sets": [
+                        4,
+                        3,
+                        6,
+                        6,
+                        7
+                    ]
+                },
+                {
+                    "idjugador": 8,
+                    "sets": [
+                        6,
+                        6,
+                        3,
+                        4,
+                        5
+                    ]
+                }
+            ]
+        },
+        {
+            "estado": "finalizado",
+            "idestadio": 2,
+            "jugadores": [
+                {
+                    "idjugador": 9,
+                    "sets": [
+                        6,
+                        6,
+                        6
+                    ]
+                },
+                {
+                    "idjugador": 10,
+                    "sets": [
+                        2,
+                        3,
+                        3
+                    ]
+                }
+            ]
+        },
+        {
+            "estado": "finalizado",
+            "idestadio": 3,
+            "jugadores": [
+                {
+                    "idjugador": 11,
+                    "sets": [
+                        4,
+                        1,
+                        [
+                            6,
+                            4
+                        ]
+                    ]
+                },
+                {
+                    "idjugador": 12,
+                    "sets": [
+                        6,
+                        6,
+                        [
+                            7,
+                            7
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

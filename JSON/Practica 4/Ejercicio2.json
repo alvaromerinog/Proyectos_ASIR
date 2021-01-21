@@ -1,0 +1,152 @@
+{
+    "sitiosweb": [
+        {
+            "url": "ultrablogg.com",
+            "posts": [
+                {
+                    "post": {
+                        "título": "Cómo crear un buen XML",
+                        "fecha": {
+                            "día": 21,
+                            "mes": 5,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 9000,
+                            "totales": 16000
+                        },
+                        "autor": {
+                            "nombre": "Sarah",
+                            "apellido": "Casado",
+                            "email": "sarcash@nop.com"
+                        }
+                    }
+                },
+                {
+                    "post": {
+                        "título": "Dar formato a XML",
+                        "fecha": {
+                            "día": 12,
+                            "mes": 6,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 9000,
+                            "totales": 16000
+                        },
+                        "autor": {
+                            "nombre": "Sarah",
+                            "apellido": "Casado",
+                            "email": "sarcash@nop.com"
+                        }
+                    }
+                },
+                {
+                    "post": {
+                        "título": "El éxito de JSON",
+                        "fecha": {
+                            "día": 13,
+                            "mes": 6,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 11800,
+                            "totales": 35000
+                        },
+                        "autor": {
+                            "nombre": "Alberto",
+                            "apellido": "Jimenez",
+                            "email": "jimenez@ubg.com"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "url": "tekniblog.es",
+            "posts": [
+                {
+                    "post": {
+                        "título": "Cómo crear un buen XML",
+                        "fecha": {
+                            "día": 21,
+                            "mes": 5,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 0,
+                            "totales": 0
+                        },
+                        "autor": {
+                            "nombre": "Sarah",
+                            "apellido": "Casado",
+                            "email": "sarcash@nop.com"
+                        }
+                    }
+                },
+                {
+                    "post": {
+                        "título": "El éxito de JSON",
+                        "fecha": {
+                            "día": 13,
+                            "mes": 6,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 0,
+                            "totales": 0
+                        },
+                        "autor": {
+                            "nombre": "Alberto",
+                            "apellido": "Jimenez",
+                            "email": "jimenez@ubg.com"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "url": "blogdelcarrion.es",
+            "posts": [
+                {
+                    "post": {
+                        "título": "Dar formato a XML",
+                        "fecha": {
+                            "día": 12,
+                            "mes": 6,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 1200,
+                            "totales": 9000
+                        },
+                        "autor": {
+                            "nombre": "Sarah",
+                            "apellido": "Casado",
+                            "email": "sarcash@nop.com"
+                        }
+                    }
+                },
+                {
+                    "post": {
+                        "título": "El éxito de JSON",
+                        "fecha": {
+                            "día": 13,
+                            "mes": 6,
+                            "año": 2017
+                        },
+                        "visitas": {
+                            "únicas": 2870,
+                            "totales": 17000
+                        },
+                        "autor": {
+                            "nombre": "Alberto",
+                            "apellido": "Jimenez",
+                            "email": "jimenez@ubg.com"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

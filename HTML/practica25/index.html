@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 25</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>
+    <h1>Formulario de contacto</h1>
+    <a href="https://www.behance.net/gallery/14245821/FREEBIE-Transparent-UI-Elements"><small>diseño original de Maxine Heyns</small></a>
+</header>
+<main>
+    <form action="https://jorgesanchez.net/servicios/practica25.php" method="get">
+        <h2>Datos de contacto</h2>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre"><br>
+        <label for="email">Email</label><br>
+        <input type="text" name="email" id="email"><br>
+        <label for="comentarios">Comentarios</label><br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea><br>
+        <label for="notificaciones">Notificaciones</label><br>
+        <select name="notificaciones" id="notificaciones">
+            <option value="diarias">Diarias</option>
+            <option value="semanales">Semanales</option>
+            <option value="mensuales">Mensuales</option>
+        </select>
+        <fieldset>
+            <legend>Seguir en</legend>
+            <div class="follow">
+                <input type="checkbox" name="facebook" id="facebook" value="facebook">
+                <label for="facebook"></label>
+                <input type="checkbox" name="twitter" id="twitter" value="twitter">
+                <label for="twitter"></label>
+                <input type="checkbox" name="pinterest" id="pinterest" value="pinterest">
+                <label for="pinterest"></label>
+                <input type="checkbox" name="google" id="google" value="google">
+                <label for="google"></label>
+            </div>
+        </fieldset>
+        <div class="enviar">
+            <button>Enviar</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grupos>
+<grupo id="A">
+    <equipos>
+        <equipo id="e1" idgrupo="A">
+            <nombre>Rusia</nombre>
+            <pj>2</pj>
+            <pts>6</pts>
+        </equipo>
+        <equipo id="e2" idgrupo="A">
+            <nombre>Uruguay</nombre>
+            <pj>1</pj>
+            <pts>3</pts>
+        </equipo>
+        <equipo id="e3" idgrupo="A">
+            <nombre>Egipto</nombre>
+            <pj>2</pj>
+            <pts>0</pts>
+        </equipo>
+        <equipo id="e4" idgrupo="A">
+            <nombre>Arabia Saudita</nombre>
+            <pj>1</pj>
+            <pts>0</pts>
+        </equipo>
+    </equipos>
+</grupo>
+<grupo id="B">
+    <equipos>
+        <equipo id="e1" idgrupo="B">
+            <nombre>Irán</nombre>
+            <pj>1</pj>
+            <pts>3</pts>
+        </equipo>
+        <equipo id="e2" idgrupo="B">
+            <nombre>Portugal</nombre>
+            <pj>1</pj>
+            <pts>1</pts>
+        </equipo>
+        <equipo id="e3" idgrupo="B">
+            <nombre>España</nombre>
+            <pj>1</pj>
+            <pts>1</pts>
+        </equipo>
+        <equipo id="e4" idgrupo="B">
+            <nombre>Marruecos</nombre>
+            <pj>1</pj>
+            <pts>0</pts>
+        </equipo>
+    </equipos>
+</grupo>
+</grupos>

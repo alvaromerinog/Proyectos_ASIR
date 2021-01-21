@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sistemasconduccion>
+    <sistema id="L0">
+        <tipo>Sin automatizar</tipo>
+        <descripcion>No hay ningún apoyo, el conductor conduce sin asistencia alguna</descripcion>
+        <epoca>Desde 1990</epoca>
+    </sistema>
+    <sistema id="L1">
+        <tipo>Funciones específicas</tipo>
+        <descripcion>Se automatizan una o más funciones, pero sin combinarse entre sí</descripcion>
+        <ejemplos>
+            <ejemplo>ABS</ejemplo>
+            <ejemplo>Control de crucero</ejemplo>
+            <ejemplo>Control electrónico de estabilidad</ejemplo>
+            <ejemplo>Asistencia de aparcamiento</ejemplo>
+        </ejemplos>
+        <epoca>Desde 1990</epoca>
+    </sistema>
+    <sistema id="L2">
+        <tipo>Funciones combinadas</tipo>
+        <descripcion>Varias funciones trabajan al unísono para conseguir automatismos avanzados</descripcion>
+        <ejemplos>
+            <ejemplo>Tesla Autopilot</ejemplo>
+            <ejemplo>GM Super Cruise</ejemplo>
+        </ejemplos>
+        <epoca>Desde 2010</epoca>
+    </sistema>
+    <sistema id="L3">
+        <tipo>Autoconducción Limitada</tipo>
+        <descripcion>El conductor cede el control del coche en determinadas circunstancias. Debe estar atento ara poder tomar el control en caso necesario</descripcion>
+        <ejemplos>
+            <ejemplo>Google Car (prototipo asistido)</ejemplo>
+        </ejemplos>
+        <epoca>Desde 2010</epoca>
+    </sistema>
+    <sistema id="L4">
+        <tipo>Autoconducción total</tipo>
+        <descripcion>El coche se conduce solo de forma autónoma durante todo un trayecto</descripcion>
+        <ejemplos>
+            <ejemplo>Google Car</ejemplo>
+        </ejemplos>
+        <epoca>?</epoca>
+    </sistema>
+</sistemasconduccion>

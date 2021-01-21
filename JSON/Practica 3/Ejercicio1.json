@@ -1,0 +1,58 @@
+{
+    "elecciones": [
+        {
+            "informacion": {
+                "censoTotal": 34802222,
+                "votosBlanco": 199511,
+                "escaños": 350,
+                "totalVotos": 25886130,
+                "votosNulos": 275410,
+                "%abstencion": 24.24
+            },
+            "partidos": [
+                {
+                    "PSOE": {
+                        "votos": 7480755,
+                        "%votos": 28.9,
+                        "escaños": 123
+                    }
+                },
+                {
+                    "PP": {
+                        "votos": 4356023,
+                        "%votos": 16.83,
+                        "escaños": 66
+                    }
+                },
+                {
+                    "U.Podemos": {
+                        "votos": 3118191,
+                        "%votos": 12.05,
+                        "escaños":35
+                    }
+                },
+                {
+                    "Vox": {
+                        "votos": 2677173,
+                        "%votos": 10.34,
+                        "escaños":24
+                    }
+                },
+                {
+                    "ERC": {
+                        "votos": 1015355,
+                        "%votos": 3.92,
+                        "escaños":15
+                    }
+                },
+                {
+                    "EnComuP": {
+                        "votos": 614738,
+                        "%votos": 2.37,
+                        "escaños":7
+                    }
+                }
+            ]
+        }
+    ]
+}

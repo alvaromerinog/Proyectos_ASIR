@@ -1,0 +1,70 @@
+{
+    "males":[
+        {
+            "id":1,
+            "nombre":"Conflicto armado"
+        },
+        {
+            "id":2,
+            "nombre":"Sequía persistente"
+        },
+        {
+            "id":3,
+            "nombre":"Crisis alimentaria grave"
+        },
+        {
+            "id":4,
+            "nombre":"Otros desastres climáticos"
+        }
+    ],
+    "países":[
+        {
+            "idmal":[2],
+            "nombrepaís":"Guatemala"
+        },
+        {
+            "idmal":[2],
+            "nombrepaís":"El Salvador"
+        },
+        {
+            "idmal":[2],
+            "nombrepaís":"Honduras"
+        },
+        {
+            "idmal":[4],
+            "nombrepaís":"Haití"
+        },
+        {
+            "idmal":[1,3],
+            "nombrepaís":"Nigeria"
+        },
+        {
+            "idmal":[1,3],
+            "nombrepaís":"Niger"
+        },
+        {
+            "idmal":[1,3],
+            "nombrepaís":"Chad"
+        },
+        {
+            "idmal":[1],
+            "nombrepaís":"Rep. Centroafricana"
+        },
+        {
+            "idmal":[1],
+            "nombrepaís":"Rep. Dem. de Congo"
+        },
+        {
+            "idmal":[1,3],
+            "nombrepaís":"Sudán del sur"
+        },
+        {
+            "idmal":[2,3],
+            "nombrepaís":"Etiopía"
+        },
+        {
+            "idmal":[2],
+            "nombrepaís":"Tanzania"
+        }
+    ]
+}

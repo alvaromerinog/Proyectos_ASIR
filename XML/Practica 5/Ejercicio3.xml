@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<campeonato>
+    <tipospartido>
+        <tipo id="t1">
+            <nombre>Octavos de final</nombre>
+        </tipo>
+        <tipo id="t2">
+            <nombre>Ronda de 32</nombre>
+        </tipo>
+    </tipospartido>
+    <estadios>
+        <estadio id="e1">
+            <nombre>Louis Armstrong Stadium</nombre>
+        </estadio>
+        <estadio id="e2">
+            <nombre>Arthur Ashe Stadium</nombre>
+        </estadio>
+        <estadio id="e3">
+            <nombre>Pista 17</nombre>
+        </estadio>
+    </estadios>
+    <países>
+        <país id="p1">
+            <imágen />
+        </país>
+        <país id="p2">
+            <imágen />
+        </país>
+        <país id="p3">
+            <imágen />
+        </país>
+        <país id="p4">
+            <imágen />
+        </país>
+        <país id="p5">
+            <imágen />
+        </país>
+        <país id="p6">
+            <imágen />
+        </país>
+        <país id="p7">
+            <imágen />
+        </país>
+        <país id="p8">
+            <imágen />
+        </país>
+        <país id="p9">
+            <imágen />
+        </país>
+        <país id="p10">
+            <imágen />
+        </país>
+        <país id="p11">
+            <imágen />
+        </país>
+        <país id="p12">
+            <imágen />
+        </país>
+    </países>
+    <jugadores>
+        <jugador id="j1" idpaís="p1">
+            <nombre>John</nombre>
+            <apellidos>Isner</apellidos>
+        </jugador>
+        <jugador id="j2" idpaís="p2">
+            <nombre>Milos</nombre>
+            <apellidos>Raonic</apellidos>
+        </jugador>
+        <jugador id="j3" idpaís="p3">
+            <nombre>Rafael</nombre>
+            <apellidos>Nadal</apellidos>
+        </jugador>
+        <jugador id="j4" idpaís="p4">
+            <nombre>Nikoloz</nombre>
+            <apellidos>Basilashvili</apellidos>
+        </jugador>
+        <jugador id="j5" idpaís="p5">
+            <nombre>Dominic</nombre>
+            <apellidos>Thiem</apellidos>
+        </jugador>
+        <jugador id="j6" idpaís="p6">
+            <nombre>Kevin</nombre>
+            <apellidos>Anderson</apellidos>
+        </jugador>
+        <jugador id="j7" idpaís="p7">
+            <nombre>Marin</nombre>
+            <apellidos>Cilic</apellidos>
+        </jugador>
+        <jugador id="j8" idpaís="p8">
+            <nombre>Álex</nombre>
+            <apellidos>de Miñaur</apellidos>
+        </jugador>
+        <jugador id="j9" idpaís="p9">
+            <nombre>Novak</nombre>
+            <apellidos>Dokovic</apellidos>
+        </jugador>
+        <jugador id="j10" idpaís="p10">
+            <nombre>Richard</nombre>
+            <apellidos>Gasquet</apellidos>
+        </jugador>
+        <jugador id="j11" idpaís="p11">
+            <nombre>Jan-Lennard</nombre>
+            <apellidos>Struff</apellidos>
+        </jugador>
+        <jugador id="j12" idpaís="p12">
+            <nombre>David</nombre>
+            <apellidos>Goffin</apellidos>
+        </jugador>
+    </jugadores>
+    <partidos>
+        <partido idtipo="t1" idestadio="e1" finalizado="true">
+            <jugadores>
+                <jugador idjugador="j1">
+                    <sets>
+                        <set>3</set>
+                        <set>6</set>
+                        <set>6</set>
+                        <set>3</set>
+                        <set>6</set>
+                    </sets>
+                </jugador>
+                <jugador idjugador="j2">
+                    <sets>
+                        <set>6</set>
+                        <set>3</set>
+                        <set>4</set>
+                        <set>6</set>
+                        <set>2</set>
+                    </sets>
+                </jugador>
+            </jugadores>
+        </partido>
+        <partido idtipo="t1" idestadio="e2" finalizado="true">
+            <jugadores>
+                <jugador idjugador="j3">
+                    <sets>
+                        <set>6</set>
+                        <set>6</set>
+                        <set>6^6</set>
+                        <set>6</set>
+                    </sets>
+                </jugador>
+                <jugador idjugador="j4">
+                    <sets>
+                        <set>3</set>
+                        <set>3</set>
+                        <set>7^8</set>
+                        <set>4</set>
+                    </sets>
+                </jugador>
+            </jugadores>
+        </partido>
+        <partido idtipo="t1" idestadio="e1" finalizado="true">
+            <jugadores>
+                <jugador idjugador="j5">
+                    <sets>
+                        <set>7</set>
+                        <set>6</set>
+                        <set>7^7</set>
+                    </sets>
+                </jugador>
+                <jugador idjugador="j6">
+                    <sets>
+                        <set>5</set>
+                        <set>2</set>
+                        <set>6^2</set>
+                    </sets>
+                </jugador>
+            </jugadores>
+        </partido>
+        <partido idtipo="t2" idestadio="e1" finalizado="true">
+            <jugadores>
+                <jugador idjugador="j7">
+                    <sets>
+                        <set>4</set>
+                        <set>3</set>
+                        <set>6</set>
+                        <set>6</set>
+                        <set>7</set>
+                    </sets>
+                </jugador>
+                <jugador idjugador="j8">
+                    <sets>
+                        <set>6</set>
+                        <set>6</set>
+                        <set>3</set>
+                        <set>4</set>
+                        <set>5</set>
+                    </sets>
+                </jugador>
+            </jugadores>
+        </partido>
+        <partido idtipo="t2" idestadio="e2" finalizado="true">
+            <jugadores>
+                <jugador idjugador="j9">
+                    <sets>
+                        <set>6</set>
+                        <set>6</set>
+                        <set>6</set>
+                    </sets>
+                </jugador>
+                <jugador idjugador="j10">
+                    <sets>
+                        <set>2</set>
+                        <set>3</set>
+                        <set>3</set>
+                    </sets>
+                </jugador>
+            </jugadores>
+        </partido>
+        <partido idtipo="t2" idestadio="e3" finalizado="true">
+            <jugadores>
+                <jugador idjugador="j11">
+                    <sets>
+                        <set>4</set>
+                        <set>1</set>
+                        <set>6^4</set>
+                    </sets>
+                </jugador>
+                <jugador idjugador="j12">
+                    <sets>
+                        <set>6</set>
+                        <set>6</set>
+                        <set>7^7</set>
+                    </sets>
+                </jugador>
+            </jugadores>
+        </partido>
+    </partidos>
+</campeonato>
