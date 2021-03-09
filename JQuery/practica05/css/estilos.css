@@ -1,0 +1,159 @@
+body {
+    background-color: gray;
+    margin: 0;
+    font-size: 1.1em;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#inicio {
+    position: absolute;
+    top: calc(50% - 75px);
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    height: 150px;
+    background-color: lightgray;
+    color: #404040;
+    text-align: center;
+    padding: 10px;
+}
+
+#inicio h1 {
+    margin: 0 5px 5px 5px;
+}
+
+#inicio h2 {
+    font-weight: normal;
+    margin: 5px;
+}
+
+#btVer {
+    background-color: transparent;
+    color: #e96a53;
+    border: 1px solid #e96a53;
+    border-radius: 30px;
+    width: 40%;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#btVer:hover {
+    background-color: #e96a53;
+    color: #404040;
+}
+
+main {
+    display: none;
+    background: url("../img/fondo.png") #404040 no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Calibri,sans-serif;
+}
+
+figure {
+    margin: 0;
+    z-index: 999;
+}
+
+#btAbajo {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#btMostrar {
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+#btAbajo:hover, #btMostrar:hover {
+    background-color: #e96a53;
+}
+
+/*
+color: white; el resto
+color: #e96a53; strong y cite
+color: #e96a53;
+color: rgba(233, 106, 83, 0.5);
+color: #999999; h2
+ */
+
+#lenguajes{
+    display: grid;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding:0;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgba(95, 95, 95, 0.5);
+}
+
+section {
+    padding: 50px 10px 10px 10px;
+    transition: 1s;
+    background: bottom center no-repeat;
+    background-size: contain;
+}
+
+#lenguajes section:hover {
+    background-color: #422721;
+    /*rgba(233, 106, 83, 0.5);*/
+
+}
+
+#lenguajes section:hover article {
+    opacity: 100;
+}
+
+#js {
+    background-image: url("../img/javascript.png");
+}
+
+#python {
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    background-image: url("../img/python.png");
+}
+
+#java {
+    background-image: url("../img/java.png");
+}
+
+article{
+    margin-left: 3em;
+}
+h1, h2 {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main h1 {
+    font-size: 2em;
+    color: white;
+}
+
+h2{
+    color: #999999;
+    font-weight: normal;
+    margin: 1em 0 0 0;
+}
+
+
+
+p {
+    margin: 0;
+    color: white;
+}
+
+cite, strong, small{
+    color: #e96a53;
+}
+
+.oculto {
+    opacity: 0;
+}

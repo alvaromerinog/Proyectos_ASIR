@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+body *{
+    font-family: sans-serif;
+}
+
+main{
+    text-align: center;
+}
+main section{
+    display: inline-block;
+    margin:5px;
+}
+
+main section:nth-of-type(odd){
+    background-color: lightgray;
+}
+
+main section:hover{
+    background-color: aquamarine;
+}
+section article{
+    margin: 5px;
+}
+
+p{
+    margin: 0;
+}

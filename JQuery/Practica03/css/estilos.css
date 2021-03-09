@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body *{
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    color: teal;
+    font-size: 3em;
+}
+
+#btAnadir{
+    box-sizing: border-box;
+    width: 10%;
+    margin: 0 0 0 -15px;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    border: 1px solid brown;
+    outline: transparent;
+    background-color: brown;
+    color: white;
+}
+
+#texto {
+    box-sizing: content-box;
+    width: 60%;
+    border: 1px solid brown;
+    border-radius: 10px 0 0 10px;
+    margin:0;
+    padding: 10px;
+    outline: transparent;
+}
+
+ul{
+    margin-left: 10px;
+}
+
+ul span{
+    color: teal;
+    font-size: 0.75em;
+}
+
+ul a{
+	text-decoration: none;
+    font-size: 1.5rem;
+	color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 0 3px;
+}
+
+.btArriba, .btAbajo{
+    color: white;
+    border-radius: 10px;
+    background-color: brown;
+    outline: transparent;
+    border: transparent;
+    margin-left: 3px;
+    font-size: 0.75em;
+}

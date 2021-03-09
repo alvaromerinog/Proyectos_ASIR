@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+*{
+    font-family: K2D, sans-serif;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: saddlebrown;
+    color: white;
+    line-height: 70px;
+}
+
+header h1{
+    margin: 0;
+}
+main{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+}
+
+form{
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    padding: 50px;
+}
+
+select{
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: lightyellow;
+    font-size: 1.3em;
+}
+
+button{
+    font-size: 2em;
+    background-color: white;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: transparent;
+}
+
+button:hover{
+    background-color: lightcoral;
+}

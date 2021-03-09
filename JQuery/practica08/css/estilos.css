@@ -1,0 +1,22 @@
+main{
+    text-align:center;
+}
+main section{
+    display: inline-block;
+}
+
+main section:nth-of-type(odd){
+    background-color: lightgray;
+}
+
+section article{
+    margin: 0;
+}
+
+p{
+    margin:0
+}
+
+button{
+    margin: 5px;
+}

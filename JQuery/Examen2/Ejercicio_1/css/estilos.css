@@ -1,0 +1,21 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+section {
+    margin: 1px;
+}
+
+h1 {
+    background-color: lightgray;
+}
+
+p {
+    font-weight: bold;
+}
+
+em, strong {
+    color: gray;
+}

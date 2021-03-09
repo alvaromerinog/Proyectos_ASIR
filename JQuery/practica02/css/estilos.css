@@ -1,0 +1,86 @@
+body {
+    background: white url("../img/fondo.png");
+}
+
+h1, h2, h3{
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1{
+    color: #cc9d00;
+    text-align: center;
+}
+ .centro{
+     text-align: center;
+ }
+small{
+    color: #d3d3d3;
+}
+
+small a{
+    color: #36718f;
+}
+
+small a:hover{
+    color: #ffc400;
+    text-decoration: none;
+}
+
+button{
+    border: 2px solid #aeadad;
+    color: #aeadad;
+    font-size: 1.5em;
+    background-color: transparent;
+}
+
+h2, h3{
+    color: #aeadad;
+    background: #f0efed url("../img/flecha.png") no-repeat left center;
+    padding-left: 40px;
+}
+
+h3{
+    margin-left: 20px;
+}
+
+p {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+div p{
+    margin-left: 40px;
+}
+
+strong{
+    color: #735300;
+}
+
+em{
+    color: #1ab188;
+    font-style: normal;
+}
+
+.ocultar{
+    display: none;
+}
+
+.selected{
+    background: #ffc400 url("../img/flecha2.png") no-repeat left center;
+}
+
+#mensaje{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    font-size: 2em;
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+}
+
+div{
+    display: none;
+}

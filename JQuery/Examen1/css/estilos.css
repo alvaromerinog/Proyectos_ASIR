@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+}
+
+body *{
+    font-family: sans-serif;
+}
+
+main{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+
+    background-color: lightgray;
+    text-align: center;
+    overflow: auto;
+}
+
+section{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #c8b699;
+    margin: 10px;
+}
+
+section h1{
+    margin:0;
+    text-align: center;
+    background-color: white;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.25em;
+}
+
+article{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+nav{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+input{
+    margin-right: 10px;
+}
+
+#iFondo{
+    width: 50px;
+}
+
+#iNumero{
+    width: 75px;
+}
+
+button{
+    color: white;
+    border-radius: 5px;
+    outline: transparent;
+    border: transparent;
+    height: 30px;
+}
+
+#btAplicar{
+    background-color: blue;
+}
+
+#btAplicar:hover{
+    background-color: rgba(0,0,255,0.65);
+}
+
+#btBorrar{
+    background-color: red;
+}
+
+#btBorrar:hover{
+    background-color: rgba(255,0,0,0.65);
+}
